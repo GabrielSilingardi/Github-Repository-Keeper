@@ -1,12 +1,11 @@
 import React from 'react'
-
-import { ButtonContainer } from './styles';
+import './styles.css';
 
 function Button({onClick}) {
   return (
-    <ButtonContainer onClick={onClick}>
+     <button className="button" onClick={onClick}>
        Buscar
-    </ButtonContainer>
+     </button>
   )
 }
 

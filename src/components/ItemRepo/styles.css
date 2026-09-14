@@ -1,0 +1,86 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.item-container {
+  width: 80%;
+}
+
+.item-container .image {
+  display: flex;
+  flex-direction: column;
+  margin-right: 2%;
+  align-items: center;
+}
+
+.userName {
+    margin-top: 10px;
+}
+
+.item-container .dados {
+  width: 100%;
+}
+
+.item-container .container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.item-container .container img {
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  border: 2px solid #e5e6e6;
+}
+
+.item-container .container h3 {
+  font-size: 32px;
+  color: #fafafa;
+}
+
+.item-container .container p {
+  font-size: 16px;
+  color: #fafafa60;
+  margin-bottom: 20px;
+}
+
+.item-container .container a.remover {
+  color: #ff0000;
+  margin-top: 20px;
+}
+
+.item-container hr {
+  color: #fafafa60;
+  margin: 20px 0;
+}
+
+.item-container .container .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.item-container .container .buttons button {
+    color: #FFFFFF;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 600;
+    min-width: 100%;
+}
+
+.item-container .container .buttons button:hover {
+    cursor: pointer;
+}
+
+.item-container .container .buttons .VerRepositorio {
+    background-color: #4444ff;
+    border: 1px solid #4444ff;
+}
+
+.item-container .container .buttons .Remover {
+    background-color: #ff0000;
+    border: 1px solid #FF0000;
+}

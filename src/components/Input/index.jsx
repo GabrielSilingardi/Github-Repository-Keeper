@@ -1,12 +1,11 @@
 import React from 'react'
-
-import { InputContainer } from './styles';
+import './styles.css';
 
 function Input({value, onChange}) {
   return (
-    <InputContainer>
+    <div className="input-container">
         <input value={value} onChange={onChange}/>
-    </InputContainer>
+    </div>
   )
 }
 
