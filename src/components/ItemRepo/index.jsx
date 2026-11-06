@@ -8,7 +8,7 @@ function ItemRepo({repo, handleRemoveRepo}) {
   }
 
   return (
-    <div className="item-container" onClick={handleRemove}>
+    <div className="item-container">
         <div className="container">
           <div className='image'>
             <img src={repo.owner.avatar_url} alt="test" />
@@ -26,7 +26,7 @@ function ItemRepo({repo, handleRemoveRepo}) {
                 <button className='VerRepositorio'>Ver repositório</button>
             </a>
             <a href="#" rel="noreferrer">
-                <button className="Remover">Remover</button>
+                <button className="Remover" onClick={handleRemove}>Remover</button>
             </a>
           </div>
         </div>

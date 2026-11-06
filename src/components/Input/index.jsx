@@ -4,7 +4,7 @@ import './styles.css';
 function Input({value, onChange}) {
   return (
     <div className="input-container">
-        <input value={value} onChange={onChange}/>
+        <input value={value} onChange={onChange} placeholder='NomeDoUsuario/Repositório'/>
     </div>
   )
 }

@@ -3,9 +3,11 @@ import './styles.css';
 
 function Button({onClick}) {
   return (
-     <button className="button" onClick={onClick}>
-       Buscar
-     </button>
+    <div className="button-container">
+      <button onClick={onClick}>
+        Buscar
+      </button>
+     </div>
   )
 }
 
